@@ -140,3 +140,56 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
 <br>
+
+## Introduction
+This project aims to develop and improve a MySQL database system for an Airbnb-like platform. The database will store information about users, listings, bookings, reviews, and other relevant data to facilitate the operation of the platform.
+
+## Forking the Repository
+To contribute to this project, follow these steps:
+1. Fork the repository on GitHub by clicking on the "Fork" button at the top right corner of the repository page.
+2. Once forked, clone the repository to your Linux Ubuntu machine using the following command:
+   ```
+   git clone https://github.com/your-username/repository-name.git
+   ```
+   Replace `your-username` with your GitHub username and `repository-name` with the name of the forked repository.
+
+## Setup
+Before contributing, ensure you have MySQL installed on your Ubuntu machine. You can install it using the following command:
+```
+sudo apt-get install mysql-server
+```
+
+Once MySQL is installed, you can create a new database and import the schema provided in the repository to get started.
+
+## Contributing
+To contribute to the project, follow these steps:
+1. Make sure you are working on a feature branch:
+   ```
+   git checkout -b feature-branch-name
+   ```
+2. Implement your changes and updates to the codebase.
+3. Write unit tests to ensure the reliability and functionality of the code.
+4. Commit your changes with descriptive commit messages:
+   ```
+   git add .
+   git commit -m "Description of changes"
+   ```
+5. Push your changes to your forked repository:
+   ```
+   git push origin feature-branch-name
+   ```
+6. Create a pull request (PR) on GitHub from your feature branch to the main repository.
+7. Wait for the maintainers to review your changes and merge them into the main branch.
+
+## Unit Testing
+Unit testing is an essential part of the development process to ensure the correctness of the code and its behavior. Before submitting a pull request, make sure to run the unit tests and ensure they pass without errors.
+
+To run the unit tests, use the following command:
+```
+python -m unittest
+```
+
+## Feedback and Suggestions
+If you have any feedback, suggestions, or issues regarding the project, feel free to open an issue on GitHub or reach out to the project maintainers.
+
+Author:Ochonma Emmanuel
